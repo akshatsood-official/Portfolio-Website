@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+body{
+    font-family: 'Source Serif Pro', serif;
+    overflow-x: hidden;
+}
+
+/* Part-1 */
+
+.part-1{
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBody{
+    background-color: white;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-link{
+    margin: 0 1rem;
+}
+
+.navBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+
+.navBtn:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.part1Left{
+    text-align: center;
+    transform: translateY(80%);
+}
+
+.name{
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    color: white;
+}
+
+.love{
+    color: white;
+}
+
+.profile{
+    display: block;
+    margin: 0 auto;
+    transform: translateY(50%);
+}
+
+/* Part-2 */
+
+.part-2{
+    /* height: 100vh; */
+    margin: 2rem 0rem auto;
+}
+
+.partHead{
+    margin: auto;
+}
+
+.iconDiv{
+    margin: 2rem 0rem auto;
+}
+
+.icon{
+    display: inline-block;
+    margin: 0 1.5rem;
+    color: black;
+}
+
+.icon:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.iconLink{
+    font-size: 1.5rem;
+}
+
+.main2Head{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.back2Head{
+    z-index: -1;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    position: relative;
+    text-align: center;
+    transform: translateY(-60%);
+    color: rgba(149, 165, 166, 0.4);
+    letter-spacing: 0.2rem;
+}
+
+.love{
+    font-size: 1.8rem;
+}
+
+/* Part-3 */
+
+.part-3{
+    margin: 4rem auto;
+}
+
+.main3Head{
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.back3Head{
+    z-index: -1;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    transform: translateY(-60%);
+    color: rgba(149, 165, 166, 0.4);
+    letter-spacing: 0.2rem;
+}
+
+.skill{
+    width: 4rem;
+}
+
+.skillSet{
+    text-align: center;
+}
+
+.skillBox{
+    display: inline-block;
+}
+
+/* Part-4 */
+
+/* .part-4{
+    height: 100vh;
+} */
+
+.main4Head{
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.back4Head{
+    z-index: -1;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    transform: translateY(-60%);
+    color: rgba(149, 165, 166, 0.4);
+    letter-spacing: 0.2rem;
+}
+
+.card{
+    margin: 1rem 0.2rem;
+}
